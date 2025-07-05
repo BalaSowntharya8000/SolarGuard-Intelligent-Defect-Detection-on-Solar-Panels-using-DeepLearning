@@ -22,11 +22,11 @@ The objective is to accurately classify solar panel images into six categories:
                   - Snow-Covered
 
 **Key Input Features**
-**Input Type  :** RGB images of individual solar panels  
-**Image Size  :** Resized uniformly (e.g., 224x224) for model compatibility  
-**Channels    :** 3 color channels (Red, Green, Blue)
-**Format      :** Folder-structured image dataset (1 folder per class). Each folder name becomes the class label. 
-**Classes     :** Clean, Dusty, Bird-Drop, Electrical-Damage, Physical-Damage, Snow-Covered  
+- **Input Type  :** RGB images of individual solar panels  
+- **Image Size  :** Resized uniformly (e.g., 224x224) for model compatibility  
+- **Channels    :** 3 color channels (Red, Green, Blue)
+- **Format      :** Folder-structured image dataset (1 folder per class). Each folder name becomes the class label. 
+- **Classes     :** Clean, Dusty, Bird-Drop, Electrical-Damage, Physical-Damage, Snow-Covered  
 
 **Key Highlights**
 - Automated classification of solar panel defects using deep learning  
@@ -134,11 +134,11 @@ The dataset contains the following folders (each representing one class).
   
 ##### Compilation:
 **Loss Function:** categorical_crossentropy (since the problem is multi-class and labels are one-hot encoded).
-One-hot encoded labels look like this for 3 classes:
-[1, 0, 0] → Class 0
-[0, 1, 0] → Class 1
-[0, 0, 1] → Class 2
-categorical_crossentropy compares the entire one-hot vector with the model’s softmax probabilities.
+- One-hot encoded labels look like this for 3 classes:
+  - [1, 0, 0] → Class 0
+  - [0, 1, 0] → Class 1
+  - [0, 0, 1] → Class 2
+- categorical_crossentropy compares the entire one-hot vector with the model’s softmax probabilities.
 **Optimizer:** Adam (adaptive and efficient for CNNs).
 **Metrics Used:** 
 - During training: accuracy
