@@ -146,12 +146,15 @@ The dataset contains the following folders (each representing one class).
 
 **Accuracy**
 → The percentage of correctly predicted images out of all predictions. (Good for balanced datasets)
+
 **Precision**
 → Measures how many of the predicted positive cases (e.g., "Dusty") are actually correct.
 - Formula: TP / (TP + FP)
+  
 **Recall**
 → Measures how many of the actual positive cases were correctly identified.
 - Formula: TP / (TP + FN)
+
 **F1-Score**
 → The harmonic mean of precision and recall, balancing both false positives and false negatives. (Useful for imbalanced classes)
 
