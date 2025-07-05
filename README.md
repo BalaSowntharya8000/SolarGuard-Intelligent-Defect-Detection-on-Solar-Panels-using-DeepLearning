@@ -143,7 +143,7 @@ categorical_crossentropy compares the entire one-hot vector with the model’s s
 **Metrics Used:** 
 - During training: accuracy
 - During evaluation: precision, recall, and F1-score for better performance insights.
-- 
+
 **Accuracy**
 → The percentage of correctly predicted images out of all predictions. (Good for balanced datasets)
 **Precision**
