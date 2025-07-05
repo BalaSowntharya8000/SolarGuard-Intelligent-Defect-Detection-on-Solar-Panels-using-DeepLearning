@@ -188,4 +188,13 @@ An interactive web-based dashboard was developed using Streamlit to allow users 
    - Line Chart: Displays daily trend of predictions using timestamp logs.
 - We can download the report. 
 
+## Conclusion
 
+- SolarGuard successfully demonstrates how deep learning can be used to automate solar panel inspection using computer vision. The project combines a high-performing EfficientNet-based CNN with a user-friendly Streamlit interface, enabling real-time defect classification and analysis.
+
+- Through accurate predictions, visual dashboards, and automated logging, SolarGuard helps reduce manual inspection efforts and supports smarter maintenance decisions in solar farms.
+
+- With a test accuracy of over **98.8%**, real-time prediction capability, and deployable design, this solution is production-ready and can easily be integrated into large-scale solar energy monitoring systems.
+
+#### Developer 
+**Bala Sowntharya Bala Subramanian**
