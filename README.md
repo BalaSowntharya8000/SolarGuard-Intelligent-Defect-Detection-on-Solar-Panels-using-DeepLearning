@@ -85,7 +85,7 @@ To run the SolarGuard: Intelligent Defect Detection on Solar Panels project, ins
 **Deep_Learning_Project_Guide** -	Project documentation guide outlining objectives, workflows, key concepts, and results
 
 ### Data Sources
-- **Dataset Link:** Faulty Solar Panel Image Dataset (Google Drive)
+- **Dataset Link:** Faulty Solar Panel Image Dataset (https://drive.google.com/drive/folders/1DVsEElxvoXNDeJ90IFf1QGQcOzVCD_rX?usp=sharing)
 - **Source Type:** Custom image dataset curated for solar panel defect classification
 - **Format:** Folder-structured dataset - Each folder name represents a class label
 
