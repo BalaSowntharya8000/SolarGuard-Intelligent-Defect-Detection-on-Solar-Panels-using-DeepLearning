@@ -103,9 +103,9 @@ The dataset contains the following folders (each representing one class).
 **Labeling** - Labels are automatically inferred from folder names during data loading using directory traversal.
 
 #### Preprocessing Summary:
-**Image Resizing:** All images are resized to 330 × 330 pixels (EfficientNetB3 standard input)
-**Normalization:** Pixel values scaled to the range [0, 1] for better convergence
-**Data Augmentation:** May include flips, rotations, zoom, and brightness adjustments during training to improve generalization
+- **Image Resizing:** All images are resized to 330 × 330 pixels (EfficientNetB3 standard input)
+- **Normalization:** Pixel values scaled to the range [0, 1] for better convergence
+- **Data Augmentation:** May include flips, rotations, zoom, and brightness adjustments during training to improve generalization
 
 ### Approach
 **Data Cleaning & Preprocessing** 
