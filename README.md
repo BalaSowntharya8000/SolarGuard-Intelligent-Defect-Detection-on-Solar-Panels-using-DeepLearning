@@ -39,10 +39,10 @@ The objective is to accurately classify solar panel images into six categories:
 
 ## Business Use Cases
 
-🔹 **Automated Solar Panel Inspection** - Develop an AI-based system to automatically classify the condition of solar panels, reducing the need for manual inspections.
-🔹 **Optimized Maintenance Scheduling** - Identify which panels require immediate cleaning or repair, optimizing maintenance efforts and reducing operational costs.
-🔹 **Efficiency Monitoring** - Analyze how common issues like dust, snow, or damage impact panel performance and generate insights to improve efficiency.
-🔹 **Smart Solar Farms** - Integrate the classification system into smart solar farms to trigger alerts for cleaning or maintenance, ensuring maximum energy output.
+- **Automated Solar Panel Inspection** - Develop an AI-based system to automatically classify the condition of solar panels, reducing the need for manual inspections.
+- **Optimized Maintenance Scheduling** - Identify which panels require immediate cleaning or repair, optimizing maintenance efforts and reducing operational costs.
+- **Efficiency Monitoring** - Analyze how common issues like dust, snow, or damage impact panel performance and generate insights to improve efficiency.
+- **Smart Solar Farms** - Integrate the classification system into smart solar farms to trigger alerts for cleaning or maintenance, ensuring maximum energy output.
 
 ###  Technologies Used
 - Python: Core language for data processing, model development, and deployment
