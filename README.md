@@ -85,9 +85,9 @@ To run the SolarGuard: Intelligent Defect Detection on Solar Panels project, ins
 **Deep_Learning_Project_Guide** -	Project documentation guide outlining objectives, workflows, key concepts, and results
 
 ### Data Sources
-**Dataset Link:** Faulty Solar Panel Image Dataset (Google Drive)
-**Source Type:** Custom image dataset curated for solar panel defect classification
-**Format:** Folder-structured dataset - Each folder name represents a class label
+- **Dataset Link:** Faulty Solar Panel Image Dataset (Google Drive)
+- **Source Type:** Custom image dataset curated for solar panel defect classification
+- **Format:** Folder-structured dataset - Each folder name represents a class label
 
 **Dataset Structure**
 The dataset contains the following folders (each representing one class).
@@ -166,5 +166,26 @@ Used ImageDataGenerator with:
 **Input Shape:** Resized all images to 330×330×3 to match EfficientNetB3 requirements.
 **Training:** Performed over multiple epochs with early stopping to avoid overfitting and ensure generalization.
 
-#### Streamlit Web Features
+### Streamlit Application
+An interactive web-based dashboard was developed using Streamlit to allow users to upload and classify solar panel images in real time.
+
+**Key Features:**
+
+**Home Page**
+- Displays a personalized greeting based on the time of day.
+- Provides an overview of the project, its purpose, and navigation instructions for users.
+**Upload and Predict**
+- Upload Interface:- Users can upload solar panel images directly via the web interface.
+- Instant Prediction: The app loads a trained EfficientNetB3 model and classifies the uploaded image into one of six defect categories:
+    - Clean, Dusty, Bird-Drop, Electrical-Damage, Physical-Damage, Snow-Covered
+- **Predicted Class Labels:**
+    - Broken Panel, Burn Mark, Color Change, Dusty Panel, Snow Covered, Normal Panel
+**Visualize**
+- View a summary of past predictions stored in the CSV log.
+- Displays insightful visualizations:
+   - Donut Chart: Shows percentage distribution of all predicted defect types.
+   - Bar Chart: Shows total count per class (e.g., how many images were predicted as "Dusty").
+   - Line Chart: Displays daily trend of predictions using timestamp logs.
+- We can download the report. 
+
 
